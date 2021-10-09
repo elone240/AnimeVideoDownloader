@@ -46,9 +46,9 @@ def index():
             f.write(r.content)
 
         print("Download Finished\nCommencing Email")
-        FROM = "elone.mailer@gmail.com"
-        PASS = "hawal123!"
-        TO = "Rathcoole786@gmail.com"
+        FROM = "***"
+        PASS = "***"
+        TO = "***"
         PORT = 587
         SERVER = "smtp.gmail.com"
         CONTENT = ""
