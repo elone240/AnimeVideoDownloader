@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>tester1</title>
+{% endblock %}
+
+{% block body %}
+<a href="{{ file }}" download="{{ filename }}">
+    <p>Your download has finished, click on this text</p>
+</a>
+{%  endblock %}

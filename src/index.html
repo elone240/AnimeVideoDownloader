@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>tester</title>
+{% endblock %}
+
+{% block body %}
+<h2>Animepisode.com url:</h2>
+<form action="/" method="POST">
+    <label for="url">url(including http(s):</label><br>
+    <input type="text" id="url" name="url" value="aesurl"><br>
+    <input type="submit" value="Submit">
+</form>
+{%  endblock %}
